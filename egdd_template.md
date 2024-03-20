@@ -1,64 +1,78 @@
-# Game Name
+# Boolean Bananza
 
 ## Elevator Pitch
 
-*A one sentence pitch for your game. Pretend that your were pitching your game to a executive going to the elevator. You have less than 60 Seconds. Check [this resource](http://www.gameacademy.com/perfecting-indie-games-elevator-pitch/) for more information.*
+*PITCH GOES HERE*
 
 ## Influences (Brief)
 
-- *Influence #1*:
-  - Medium: *(Television, Games, Literature, Movies, etc.)*
-  - Explanation: *In one paragraph or less, explain why this is an influence.*
-- *Influence #2*:
-  - Medium: *(Television, Games, Literature, Movies, etc.)*
-  - Explanation: *In one paragraph or less, explain why this is an influence.*
-- *Influence #3*:
-  - Medium: *(Television, Games, Literature, Movies, etc.)*
-  - Explanation: *In one paragraph or less, explain why this is an influence.*
+- *Yoshi's Cookie*:
+  - Medium: *Console Game*
+  - Explanation: *Yoshi's Cookie is our inspiration for determining how objects on the board could be moved. Columns/rows can be shifted vertically or horizontally to change the location of a block (i.e, the game is NOT a drag-and-drop).*
+- *Candy Crush:*:
+  - Medium: *Mobile Game*
+  - Explanation: *Candy Crush is our inspiration for implementing a limited number of moves and required matches in order to complete each level (Ex. You need to get 2 expressions evaluated to True to pass), as well as having a score system that rewards players based off how many moves they took to complete a match.*
+- *Sudoku*:
+  - Medium: *Puzzle Game*
+  - Explanation: *Sudoku is our inspiration for the grid-based board layout and how matches can be made (i.e, if the whole row/column is correct, then a match is made).*
 
 ## Core Gameplay Mechanics (Brief)
 
 *Give a very high-level description of any core gameplay mechanics*
 
-- *Gameplay Mechanic #1*
-- *Gameplay Mechanic #2*
-- *Gameplay Mechanic #3*
-- *Gameplay Mechanic #4*
+- *Move around the board with WASD keys*
+- *Shift the blocks in each row/column using arrow keys*
+- *When all the blocks in a row/column evaluate to True or the specified value, a match is made and the row/column disappears*
+- *New blocks take the place of any that were disappeared from a previous match (i.e, this is done by shifting blocks down and dropping new ones into the empty space)*
+- *Players have limited moves, where each time a player moves off of a block whose position was shifted, their moves decrease by one*
+- *A level is completed if players gather the required amount of specified matches*
+- *A level is lost if players run out of moves before gathering the required amount of specified matches*
+- *When players make a match with a new expression, they can refer back to it through a list that displays every new match made in that level (i.e, expressions from other/replayed levels are not kept)*
+- *Players who have trouble with understanding the logic behind matches can refer to a help section that offers examples and explanations*
+- *When a level is completed, the player's score is shown on the screen and they are given the options to replay the level, move to the next level, view the new expressions they've created, or return to the title screen*
+- *Players who do not successfully complete a level will see their score on the screen and will be given the options to replay the level, view the new expressions they've created, or return to the title screen*
 
 # Learning Aspects
 
 ## Learning Domains
 
-*Briefly list any and all of the disciplines and learning domains for this subject.*
+*Introductory comptational/programming logic*
 
 ## Target Audiences
 
-*Who are your learners?*
+*Novice programmers with little/no prior programming experience*
+*Appropriate for all ages*
 
 ## Target Contexts
 
-*Describe what kinds of formal and informal learning contexts this will be used in (e.g., courses, k-12 computer labs during free time).*
+*This could be offered as additional practice in a course that teaches conditional logic involving expressions that evaluate to True or False*
+*The game may also serve as an introduction to conditional logic concepts for unfamiliar players*
+*Due to the use of audio, it may not be appropraite for a classroom activity*
+*Because the controls rely on WASD and arrow keys, it may not work for devices that do not have a QWERTY keyboard (i.e, unsuitable for mobile gameplay)*
+
 
 ## Learning Objectives
 
 *Remember, Learning Objectives are NOT simply topics. They are statements of observable behavior that a learner can do after the learning experience. You cannot observe someone "understanding" or "knowing" something.*
 
-- *Short Name*: *Formal Learning Objective #1*
-- *Short Name*: *Formal Learning Objective #2*
-- *Short Name*: *Formal Learning Objective #3*
+- *Creating Boolean Expressions*: *By the end of the gameplay, players will be able to construct Boolean expressions by chaining together blocks of True, False, And, Or, Not, and other elements/expressions that can be equated to True or False*
+- *Evaluating Truthiness*: *By the end of the lesson, players will be able to evaluate Boolean expressions and determine whether they equate to True or False*
 
 ## Prerequisite Knowledge
 
 *What do they need to know prior to trying this game?*
 
-- *Prerequisite Learning Objective #1*
-- *Prerequisite Learning Objective #2*
+- *Prior to the game, players need to be able to define what Boolean values are*
+- *Prior to the game, players must be able to identify the syntax and meaning of logical operators (Ex. NOT, AND, OR)*
 
 ## Assessment Measures
 
-*Describe how the learning will be assessed, e.g., pre/post multiple-choice test, or SAT, or some other instrument.*
+*A short pre-test and matching post-test should be designed to assess student learning.*
 
-*If proposing a new instrument, briefly and concisely list some example assessment questions.*
+- *Given a boolean expression, determine whether it will evaluate to True or False*
+- *Create a boolean expression given certain criteria (Ex. Use specific logical operators, make the expression evaluate to a given value)*
+- *Given a boolean expression, explain why the answer does or does not evaluate to the answer that is provided*
+- *Multiple choice questions that test students on how boolean operators work*
 
 # What sets this project apart?
 
