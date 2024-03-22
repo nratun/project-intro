@@ -193,28 +193,51 @@ More advanced levels would introduce the parentheses and equal sign symbol, to a
 
 *Go into as much detail as needs be to visually convey the Dynamics of your game. Be detailed. Create storyboards and freeze frame images that concisely capture important key elements of your game. You are strongly recommended to sketch pictures on paper and embed them here. Be sure make it clear how previously-described mechanics come through in the dynamics.*
 
+*Within the game, you meet a group of frogs preparing their pond for the annual frog festival. They have a bit of a problem though: one of the frogs got careless and messed up their lighting system. It's up to the player to go through each level and construct Boolean expressions to help fix the frogs' electrical system and light up the beautiful decorations before the annual frog festival begins*
+
+*Each frog is different color and will interact with the player before each level to explain the new feature that is being implemented that round. The frog will offer a brief explanation of the new concept, after which the round will begin. If players feel like they need more guidance, they can refer to the help button in the level.*
+
+*Here's the title screen of the game:*
+
+*This is the level select screen, where players can choose their round. Notice how the third level is locked because they haven't finished the second level yet:*
+
+*Players can see a brief overview of what to expect before starting a level:*
+
+*This is an example of how the board on the first level may look:*
+
+*This is an example of how the player can shift the value of a selected block:*
+
+*Here is an example of what happens when a match is made:*
+
+*After completing a level, the following screen is shown:*
+
+*If a level is not successfully completed, here is the screen:*
+
+*Here is how the help section would be laid out:*
+
+*If players complete all the levels, they can see the ending where the decorations are successfully lit up and the frogs are celebrating the festival:*
+
 # Assets Needed
 
 ## Aethestics
 
-*Give a sense of the aesthetics of your game, the spirit and atmosphere. Use descriptive, evocative words that can help the reader understand the emotional response of your game.*
-
-*The aesthetics should be *
+*The aesthetics should be happy and cartoonish, with a light-hearted feel. The characters and background will be bright and colorful to be inviting to players. The game will be made with pixel art and have a simplistic and intuitive design so that players will be able to enjoy the game regardless of prior experience.*
 
 ## Graphical
 
-- Characters List
-  - *Characters 1*
-  - *Characters 2*
-  - *...*
+- Characters List (Names have not been decided yet)
+  - *Introductory Frog:* *May have a greenish design, happy face for use when first meeting the player, sad when talking about the lighting problem for the festival*
+  - *Level 1 Frog:* *May have a yellowish design, happy face (may need a neutral face if the frog will be implemented during the game board segment of the round)*
+  - *Level 2 Frog:* *May have a bluish design, would need same kind of faces as Level 1 Frog*
+  - *Level 3 Frog:* *May have a pinkish design, would need same kind of faces as Level 1 Frog*
+  - *Additional Frogs:* *May be included depending on how many levels will be implemented in game, more frogs with happy expressions may be added in the end scene of the game to populate the background during the festival*
 - Textures:
-  - *Texture 1*
-  - *Texture 2*
-  - *...*
+  - *Pixel art/16 bit style*
+  - *Grassy/foresty texture, may use steel and metallic texture for level background*
 - Environment Art/Textures:
-  - *Environment Texture 1*
-  - *Environment Texture 2*
-  - *...*
+  - *Main Menu/Level Select Scene:* *The background will be a colorful pond during the day, perhaps with lily pads, flowers, and small decorations to show the preparations for the frog festival*
+  - *Level Scene:* *The background for the levels are not fully determined yet, but would either follow the pond theme or have a machinery background with mechanical components and wires, to make it seem as though players are fixing a generator or similar machine of sorts*
+  - *Game End Scene:* *The backgrond would most likely be very similar to the first, but would show the pond during a later time of day (i.e evening or night), and would show the decorations lit up and all the frogs from the previous level together and happy*
 
 
 ## Audio
@@ -223,14 +246,14 @@ More advanced levels would introduce the parentheses and equal sign symbol, to a
 *Game region/phase/time are ways of designating a particularly important place in the game.*
 
 - Music List (Ambient sound)
-  - *Game region/phase/time*: *Example 1*, *Example 2*
-  - *Game region/phase/time*: *Example 3*, *Example 4*
+  - *General gameplay*: happy, upbeat music, like the [Gentle Breeze song from Trauma Center](https://www.youtube.com/watch?v=XJsy5jJ7Dp0&ab_channel=DarkOblivion3), or the theme from [Grillby's restaurant in Undertale](https://www.youtube.com/watch?v=CWl12SxoLkg&ab_channel=SweatyPineapple)
   
-*Game Interactions are things that trigger SFX, like character movement, hitting a spiky enemy, collecting a coin.*
-
 - Sound List (SFX)
-  - *Game Interaction*: *Example 1*, *Example 2*
-  - *Game Interaction*: *Example 3*, *Example 4*
+  - *Making a match*: the row/column explodes, perhaps making sounds similar to the ones [in this video](https://www.youtube.com/watch?v=EA4h8l2zZ1g&ab_channel=CreatorAssets)
+  - *Fulfilling a criterion*: A small sound [like this one](https://www.youtube.com/watch?v=sW8TKZtoND8&ab_channel=SoundEffectDatabase), or [this one](https://www.youtube.com/watch?v=KsDg-ggEOvk&ab_channel=FreeGamingSoundEffects) could be used to notify players of a criteria's completion
+  - *Few moves left*: Players can be warned of having few moves left with a small sound [like this one](https://www.youtube.com/watch?v=zR2m4NvohJQ&ab_channel=POGW)
+  - *Completing a level*: When successful, players could hear a small sound [like this one](https://www.youtube.com/watch?v=DdCjg1lX-Bc&ab_channel=BackgroundColor),[this one](https://www.youtube.com/watch?v=AFYWsbUSasw&ab_channel=SFXWARD), or [this one](https://www.youtube.com/watch?v=c9Yb_a4R7ts&ab_channel=SFXWARD) once the end screen of a completed level appears
+  - *Level incomplete*: When unsuccessful, players could hear a small sound [like this one](https://www.youtube.com/watch?v=sq48A8xsxfU&ab_channel=CheeseballsCharles), or [this one](https://www.youtube.com/watch?v=7jSUfGcXkDc&ab_channel=SOUNDEffectsPublicDomain) once the end screen of an incomplete level appears
 
 
 # Metadata
