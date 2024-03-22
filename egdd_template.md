@@ -198,22 +198,29 @@ More advanced levels would introduce the parentheses and equal sign symbol, to a
 *Each frog is different color and will interact with the player before each level to explain the new feature that is being implemented that round. The frog will offer a brief explanation of the new concept, after which the round will begin. If players feel like they need more guidance, they can refer to the help button in the level.*
 
 *Here's the title screen of the game:*
+![Title Screen](images/title-screen.jpeg)
 
 *This is the level select screen, where players can choose their round. Notice how the third level is locked because they haven't finished the second level yet:*
+![Level Select Screen](images/level-select.jpeg)
 
 *Players can see a brief overview of what to expect before starting a level:*
+![Level Info Screen](images/level-info.jpeg)
 
 *This is an example of how the board on the first level may look:*
+![Level 1 Screen](images/level-start.jpeg)
 
 *This is an example of how the player can shift the value of a selected block:*
+![Level 1 Normal Screen](images/new-row.jpeg)
+![Level 1 Shift Screen](images/level-switch.jpeg)
 
 *Here is an example of what happens when a match is made:*
+![Level 1 Match Screen](images/match-made.jpeg)
 
 *After completing a level, the following screen is shown:*
+![Level Complete Screen](images/level-complete.jpeg)
 
 *If a level is not successfully completed, here is the screen:*
-
-*Here is how the help section would be laid out:*
+![Level Incomplete Screen](images/level-incomplete.jpeg)
 
 *If players complete all the levels, they can see the ending where the decorations are successfully lit up and the frogs are celebrating the festival:*
 
@@ -231,14 +238,20 @@ More advanced levels would introduce the parentheses and equal sign symbol, to a
   - *Level 2 Frog:* *May have a bluish design, would need same kind of faces as Level 1 Frog*
   - *Level 3 Frog:* *May have a pinkish design, would need same kind of faces as Level 1 Frog*
   - *Additional Frogs:* *May be included depending on how many levels will be implemented in game, more frogs with happy expressions may be added in the end scene of the game to populate the background during the festival*
+
 - Textures:
   - *Pixel art/16 bit style*
   - *Grassy/foresty texture, may use steel and metallic texture for level background*
+
 - Environment Art/Textures:
   - *Main Menu/Level Select Scene:* *The background will be a colorful pond during the day, perhaps with lily pads, flowers, and small decorations to show the preparations for the frog festival*
   - *Level Scene:* *The background for the levels are not fully determined yet, but would either follow the pond theme or have a machinery background with mechanical components and wires, to make it seem as though players are fixing a generator or similar machine of sorts*
   - *Game End Scene:* *The backgrond would most likely be very similar to the first, but would show the pond during a later time of day (i.e evening or night), and would show the decorations lit up and all the frogs from the previous level together and happy*
 
+  Inspirations:
+  ![Frog design](images/frog.jpeg)
+  ![Background design](images/pond.png)
+  ![Machinery design](images/robot-claws.jpeg)
 
 ## Audio
 
